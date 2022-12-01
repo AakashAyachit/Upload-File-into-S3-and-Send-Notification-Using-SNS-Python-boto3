@@ -6,8 +6,8 @@ data = [['AAA', 31], ['BBB', 30], ['CCC', 14], ['DDD', 30]]
 df = pd.DataFrame(data, columns=['Name', 'Age'])
 df
 
-ACCESS_KEY = "AKIAWCM63MXFHX3IVAJK"
-SECRET_KEY = "Un434x8PEsUXSzL5w8QODelQeiyupUiK+cNivfA9"
+ACCESS_KEY = "xxx" #replace xxx with IAM user access key and secret access key
+SECRET_KEY = "xxx"
 
 
 def upload_s3(df):
